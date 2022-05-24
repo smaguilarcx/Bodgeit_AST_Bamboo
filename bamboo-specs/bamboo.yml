@@ -17,5 +17,7 @@ Job cli:
     - script:
         - apt update  && apt install -y curl git
         - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        - /home/linuxbrew/.linuxbrew/bin/brew install checkmarx/ast-cli/ast-cli
+        - ls -la /home/linuxbrew/.linuxbrew/Cellar/ast-cli
         
         
